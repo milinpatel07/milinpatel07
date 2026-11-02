@@ -4,12 +4,12 @@
 
 <br>
 
-<!-- Research profile buttons, to be added once the links are known:
-<a href="https://scholar.google.com/citations?user=ID"><img src="https://img.shields.io/badge/Google_Scholar-publications-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white&labelColor=0a1020" alt="Google Scholar"></a>
-<a href="https://orcid.org/ID"><img src="https://img.shields.io/badge/ORCID-profile-a6ce39?style=for-the-badge&logo=orcid&logoColor=white&labelColor=0a1020" alt="ORCID"></a>
-<a href="https://www.researchgate.net/profile/ID"><img src="https://img.shields.io/badge/ResearchGate-profile-00ccbb?style=for-the-badge&logo=researchgate&logoColor=white&labelColor=0a1020" alt="ResearchGate"></a>
-<a href="https://www.linkedin.com/in/ID"><img src="https://img.shields.io/badge/LinkedIn-profile-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a1020" alt="LinkedIn"></a>
--->
+<a href="https://scholar.google.com/citations?user=2pdr8QwAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-publications-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white&labelColor=0a1020" alt="Google Scholar"></a>
+<a href="https://orcid.org/0000-0002-8357-6018"><img src="https://img.shields.io/badge/ORCID-0000--0002--8357--6018-a6ce39?style=for-the-badge&logo=orcid&logoColor=white&labelColor=0a1020" alt="ORCID 0000-0002-8357-6018"></a>
+<a href="https://www.researchgate.net/profile/Milin-Patel"><img src="https://img.shields.io/badge/ResearchGate-profile-00ccbb?style=for-the-badge&logo=researchgate&logoColor=white&labelColor=0a1020" alt="ResearchGate"></a>
+<a href="https://www.linkedin.com/in/milinpatel1996/"><img src="https://img.shields.io/badge/LinkedIn-profile-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a1020" alt="LinkedIn"></a>
+
+<br>
 
 <sub><b><a href="#research">Research</a></b> · <b><a href="#publications">Publications</a></b> · <b><a href="#projects">Projects</a></b> · <b><a href="#education">Education</a></b> · <b><a href="#toolbox">Toolbox</a></b> · <b><a href="#contact">Contact</a></b></sub>
 
@@ -45,20 +45,6 @@ The work brings together **functional safety** (ISO 26262), **safety of the inte
 <img src="assets/focus.svg" width="100%" alt="Research areas: perception safety, safety and security, uncertainty, education.">
 </div>
 
-<details>
-<summary><b>Research focus in each lifecycle phase</b></summary>
-<br>
-
-| Phase | Question | Research focus |
-|---|---|---|
-| Concept and requirements | What can go wrong? | Hazards, threats and the performance limitations of sensors and AI components |
-| Data and design | Are the data fit for purpose? | Data as part of the safety evidence |
-| Verification and validation | Are the targets met? | Testing of AI-based perception under adverse weather, sensor noise and edge cases |
-| Release | Is the assurance case complete? | Assurance cases that cover safety and cybersecurity together |
-| Operation | Does the evidence hold in operation? | Uncertainty estimation and runtime monitoring |
-| Updates | Does the evidence hold after a change? | Keeping the assurance case valid when an AI component is retrained or updated |
-
-</details>
 
 ---
 
@@ -67,6 +53,8 @@ The work brings together **functional safety** (ISO 26262), **safety of the inte
 Peer-reviewed publications at international conferences and workshops on dependable systems and vehicle technology.
 
 **Topics:** `assurance cases for AI` · `safety and cybersecurity co-engineering` · `SOTIF` · `uncertainty in LiDAR perception` · `runtime monitoring` · `standards analysis`
+
+**Full list:** [Google Scholar](https://scholar.google.com/citations?user=2pdr8QwAAAAJ) · [ORCID](https://orcid.org/0000-0002-8357-6018) · [ResearchGate](https://www.researchgate.net/profile/Milin-Patel)
 
 ---
 
@@ -145,7 +133,9 @@ flowchart LR
 
 ## Contact
 
-Open to research collaboration, industry exchange and student projects on AI safety, SOTIF and assurance cases. Contact through an issue in any public repository.
+Open to research collaboration, industry exchange and student projects on AI safety, SOTIF and assurance cases.
+
+[LinkedIn](https://www.linkedin.com/in/milinpatel1996/) · [Google Scholar](https://scholar.google.com/citations?user=2pdr8QwAAAAJ) · [ORCID](https://orcid.org/0000-0002-8357-6018) · [ResearchGate](https://www.researchgate.net/profile/Milin-Patel)
 
 <div align="center">
 <sub>Animations are plain SVG and pause when reduced motion is requested.</sub>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-labelledby="lt ld">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" width="1000" height="660" role="img" aria-labelledby="lt ld">
 <title id="lt">The safety lifecycle of an AI component</title>
 <desc id="ld">Six phases around an AI component: concept and requirements, data and design, verification and validation, release, operation, and updates. A marker travels the loop and lights each phase in turn.</desc>
 <defs>
@@ -7,19 +7,19 @@
 </defs>
 <style>
   text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
-  .ph { font-size: 16.5px; font-weight: 650; fill: #eef3fa; }
-  .q { font-size: 14px; fill: #c9d6ea; font-style: italic; }
-  .w { font: 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #5ad1f0; }
+  .ph { font-size: 20px; font-weight: 650; fill: #eef3fa; }
+  .q { font-size: 16px; fill: #c9d6ea; font-style: italic; }
+  .w { font: 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #5ad1f0; }
   .num { font-size: 19px; font-weight: 700; fill: #eef3fa; }
   .nc { fill: #13203c; stroke: #35507e; stroke-width: 2; animation: lit 12.0s linear infinite; }
   .lbl { opacity: .55; animation: lbl 12.0s linear infinite; }
   .loop { fill: none; stroke: #2b3f65; stroke-width: 2; stroke-dasharray: 3 9; animation: flow 3s linear infinite; }
-  .orbit { transform-origin: 600px 372px; transform-box: view-box; animation: spin 12.0s linear infinite; }
-  .pulse { transform-origin: 600px 372px; transform-box: view-box; animation: pulse 3s ease-in-out infinite; }
+  .orbit { transform-origin: 500px 380px; transform-box: view-box; animation: spin 12.0s linear infinite; }
+  .pulse { transform-origin: 500px 380px; transform-box: view-box; animation: pulse 3s ease-in-out infinite; }
   .big { font-size: 28px; font-weight: 750; fill: #eef3fa; letter-spacing: 1px; }
-  .small { font-size: 14px; fill: #93a6c2; }
-  .tiny { font: 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #5ad1f0; }
-  .head { font-size: 13px; letter-spacing: 3px; fill: #5ad1f0; font-weight: 600; }
+  .small { font-size: 16px; fill: #93a6c2; }
+  .tiny { font: 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #5ad1f0; }
+  .head { font-size: 15px; letter-spacing: 3px; fill: #5ad1f0; font-weight: 600; }
   @keyframes spin { to { transform: rotate(360deg); } }
   @keyframes flow { to { stroke-dashoffset: -24; } }
   @keyframes pulse { 0%, 100% { transform: scale(.92); opacity: .7; } 50% { transform: scale(1.06); opacity: 1; } }
@@ -27,15 +27,15 @@
   @keyframes lbl { 0% { opacity: 1; } 16% { opacity: 1; } 24% { opacity: .55; } 100% { opacity: .55; } }
   @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .lbl { opacity: 1; } }
 </style>
-<rect width="1200" height="700" rx="18" fill="url(#lbg)"/>
+<rect width="1000" height="660" rx="18" fill="url(#lbg)"/>
 <text class="head" x="40" y="44">SAFETY LIFECYCLE OF AN AI COMPONENT</text>
-<text class="small" x="40" y="68">Assurance continues after release: through operation and through every update of the AI component.</text>
-<circle class="pulse" cx="600" cy="372" r="120" fill="url(#core)"/>
-<circle class="loop" cx="600" cy="372" r="168"/>
-<g class="orbit"><circle cx="600" cy="204" r="8" fill="#5ad1f0"/><circle cx="600" cy="204" r="15" fill="#5ad1f0" fill-opacity=".25"/></g>
-<g class="node" style="animation-delay:-12.00s"><circle cx="600.0" cy="204.0" r="27" class="nc" style="animation-delay:-12.00s"/><text x="600.0" y="210.0" text-anchor="middle" class="num">1</text></g><g class="node" style="animation-delay:-10.00s"><circle cx="745.5" cy="288.0" r="27" class="nc" style="animation-delay:-10.00s"/><text x="745.5" y="294.0" text-anchor="middle" class="num">2</text></g><g class="node" style="animation-delay:-8.00s"><circle cx="745.5" cy="456.0" r="27" class="nc" style="animation-delay:-8.00s"/><text x="745.5" y="462.0" text-anchor="middle" class="num">3</text></g><g class="node" style="animation-delay:-6.00s"><circle cx="600.0" cy="540.0" r="27" class="nc" style="animation-delay:-6.00s"/><text x="600.0" y="546.0" text-anchor="middle" class="num">4</text></g><g class="node" style="animation-delay:-4.00s"><circle cx="454.5" cy="456.0" r="27" class="nc" style="animation-delay:-4.00s"/><text x="454.5" y="462.0" text-anchor="middle" class="num">5</text></g><g class="node" style="animation-delay:-2.00s"><circle cx="454.5" cy="288.0" r="27" class="nc" style="animation-delay:-2.00s"/><text x="454.5" y="294.0" text-anchor="middle" class="num">6</text></g>
-<text class="tiny" x="600" y="342" text-anchor="middle">AI-based perception</text>
-<text class="big" x="600" y="380" text-anchor="middle">ASSURANCE</text>
-<text class="small" x="600" y="406" text-anchor="middle">safety · security · AI</text>
-<g class="lbl" style="animation-delay:-12.00s"><text text-anchor="middle" x="600.0" y="104.0"><tspan class="ph" x="600.0" dy="0">Concept and</tspan><tspan class="ph" x="600.0" dy="19">requirements</tspan><tspan class="q" x="600.0" dy="21">What can go wrong?</tspan><tspan class="w" x="600.0" dy="18">hazards · threats · limits</tspan></text></g><g class="lbl" style="animation-delay:-10.00s"><text text-anchor="start" x="795.7" y="237.0"><tspan class="ph" x="795.7" dy="0">Data and</tspan><tspan class="ph" x="795.7" dy="19">design</tspan><tspan class="q" x="795.7" dy="21">Are the data fit for purpose?</tspan><tspan class="w" x="795.7" dy="18">data quality</tspan></text></g><g class="lbl" style="animation-delay:-8.00s"><text text-anchor="start" x="795.7" y="463.0"><tspan class="ph" x="795.7" dy="0">Verification</tspan><tspan class="ph" x="795.7" dy="19">and validation</tspan><tspan class="q" x="795.7" dy="21">Are the targets met?</tspan><tspan class="w" x="795.7" dy="18">testing · evidence</tspan></text></g><g class="lbl" style="animation-delay:-6.00s"><text text-anchor="middle" x="600.0" y="592.0"><tspan class="ph" x="600.0" dy="0">Release</tspan><tspan class="q" x="600.0" dy="22">Is the assurance case complete?</tspan><tspan class="w" x="600.0" dy="18">assurance case</tspan></text></g><g class="lbl" style="animation-delay:-4.00s"><text text-anchor="end" x="404.3" y="463.0"><tspan class="ph" x="404.3" dy="0">Operation</tspan><tspan class="q" x="404.3" dy="22">Does the evidence hold in operation?</tspan><tspan class="w" x="404.3" dy="18">runtime monitoring</tspan></text></g><g class="lbl" style="animation-delay:-2.00s"><text text-anchor="end" x="404.3" y="237.0"><tspan class="ph" x="404.3" dy="0">Updates</tspan><tspan class="q" x="404.3" dy="22">Does the evidence hold after a change?</tspan><tspan class="w" x="404.3" dy="18">continuous assurance</tspan></text></g>
+<text class="small" x="40" y="68">Assurance continues after release, through operation and every update.</text>
+<circle class="pulse" cx="500" cy="380" r="120" fill="url(#core)"/>
+<circle class="loop" cx="500" cy="380" r="150"/>
+<g class="orbit"><circle cx="500" cy="230" r="8" fill="#5ad1f0"/><circle cx="500" cy="230" r="15" fill="#5ad1f0" fill-opacity=".25"/></g>
+<g class="node" style="animation-delay:-12.00s"><circle cx="500.0" cy="230.0" r="27" class="nc" style="animation-delay:-12.00s"/><text x="500.0" y="236.0" text-anchor="middle" class="num">1</text></g><g class="node" style="animation-delay:-10.00s"><circle cx="629.9" cy="305.0" r="27" class="nc" style="animation-delay:-10.00s"/><text x="629.9" y="311.0" text-anchor="middle" class="num">2</text></g><g class="node" style="animation-delay:-8.00s"><circle cx="629.9" cy="455.0" r="27" class="nc" style="animation-delay:-8.00s"/><text x="629.9" y="461.0" text-anchor="middle" class="num">3</text></g><g class="node" style="animation-delay:-6.00s"><circle cx="500.0" cy="530.0" r="27" class="nc" style="animation-delay:-6.00s"/><text x="500.0" y="536.0" text-anchor="middle" class="num">4</text></g><g class="node" style="animation-delay:-4.00s"><circle cx="370.1" cy="455.0" r="27" class="nc" style="animation-delay:-4.00s"/><text x="370.1" y="461.0" text-anchor="middle" class="num">5</text></g><g class="node" style="animation-delay:-2.00s"><circle cx="370.1" cy="305.0" r="27" class="nc" style="animation-delay:-2.00s"/><text x="370.1" y="311.0" text-anchor="middle" class="num">6</text></g>
+<text class="tiny" x="500" y="350" text-anchor="middle">AI-based perception</text>
+<text class="big" x="500" y="388" text-anchor="middle">ASSURANCE</text>
+<text class="small" x="500" y="414" text-anchor="middle">safety · security · AI</text>
+<g class="lbl" style="animation-delay:-12.00s"><text text-anchor="middle" x="500.0" y="130.0"><tspan class="ph" x="500.0" dy="0">Concept and</tspan><tspan class="ph" x="500.0" dy="19">requirements</tspan><tspan class="q" x="500.0" dy="21">What can go wrong?</tspan><tspan class="w" x="500.0" dy="18">hazards · threats · limits</tspan></text></g><g class="lbl" style="animation-delay:-10.00s"><text text-anchor="start" x="674.9" y="257.0"><tspan class="ph" x="674.9" dy="0">Data and</tspan><tspan class="ph" x="674.9" dy="19">design</tspan><tspan class="q" x="674.9" dy="21">Are the data fit for purpose?</tspan><tspan class="w" x="674.9" dy="18">data quality</tspan></text></g><g class="lbl" style="animation-delay:-8.00s"><text text-anchor="start" x="674.9" y="459.0"><tspan class="ph" x="674.9" dy="0">Verification</tspan><tspan class="ph" x="674.9" dy="19">and validation</tspan><tspan class="q" x="674.9" dy="21">Are the targets met?</tspan><tspan class="w" x="674.9" dy="18">testing · evidence</tspan></text></g><g class="lbl" style="animation-delay:-6.00s"><text text-anchor="middle" x="500.0" y="582.0"><tspan class="ph" x="500.0" dy="0">Release</tspan><tspan class="q" x="500.0" dy="22">Is the case complete?</tspan><tspan class="w" x="500.0" dy="18">assurance case</tspan></text></g><g class="lbl" style="animation-delay:-4.00s"><text text-anchor="end" x="325.1" y="459.0"><tspan class="ph" x="325.1" dy="0">Operation</tspan><tspan class="q" x="325.1" dy="22">Does it hold in operation?</tspan><tspan class="w" x="325.1" dy="18">runtime monitoring</tspan></text></g><g class="lbl" style="animation-delay:-2.00s"><text text-anchor="end" x="325.1" y="257.0"><tspan class="ph" x="325.1" dy="0">Updates</tspan><tspan class="q" x="325.1" dy="22">Does it hold after updates?</tspan><tspan class="w" x="325.1" dy="18">continuous assurance</tspan></text></g>
 </svg>
