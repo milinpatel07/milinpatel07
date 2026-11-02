@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-labelledby="lt ld">
+<title id="lt">The six-phase lifecycle assurance model</title>
+<desc id="ld">Six phases around one AI perception component: concept and requirements, design and training, verification and validation, integration and deployment, operation and monitoring, modification and re-assurance. A marker travels the loop and lights each phase in turn.</desc>
+<defs>
+  <linearGradient id="lbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1020"/><stop offset="1" stop-color="#101a31"/></linearGradient>
+  <radialGradient id="core"><stop offset="0" stop-color="#5ad1f0" stop-opacity=".22"/><stop offset="1" stop-color="#5ad1f0" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+  text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
+  .ph { font-size: 16.5px; font-weight: 650; fill: #eef3fa; }
+  .q { font-size: 14px; fill: #c9d6ea; font-style: italic; }
+  .w { font: 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #5ad1f0; }
+  .num { font-size: 19px; font-weight: 700; fill: #eef3fa; }
+  .nc { fill: #13203c; stroke: #35507e; stroke-width: 2; animation: lit 12.0s linear infinite; }
+  .lbl { opacity: .55; animation: lbl 12.0s linear infinite; }
+  .loop { fill: none; stroke: #2b3f65; stroke-width: 2; stroke-dasharray: 3 9; animation: flow 3s linear infinite; }
+  .orbit { transform-origin: 600px 372px; transform-box: view-box; animation: spin 12.0s linear infinite; }
+  .pulse { transform-origin: 600px 372px; transform-box: view-box; animation: pulse 3s ease-in-out infinite; }
+  .big { font-size: 34px; font-weight: 750; fill: #eef3fa; letter-spacing: 1px; }
+  .small { font-size: 14px; fill: #93a6c2; }
+  .tiny { font: 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #5ad1f0; }
+  .head { font-size: 13px; letter-spacing: 3px; fill: #5ad1f0; font-weight: 600; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes flow { to { stroke-dashoffset: -24; } }
+  @keyframes pulse { 0%, 100% { transform: scale(.92); opacity: .7; } 50% { transform: scale(1.06); opacity: 1; } }
+  @keyframes lit { 0% { fill: #5ad1f0; stroke: #5ad1f0; } 14% { fill: #13203c; stroke: #35507e; } 100% { fill: #13203c; stroke: #35507e; } }
+  @keyframes lbl { 0% { opacity: 1; } 16% { opacity: 1; } 24% { opacity: .55; } 100% { opacity: .55; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .lbl { opacity: 1; } }
+</style>
+<rect width="1200" height="700" rx="18" fill="url(#lbg)"/>
+<text class="head" x="40" y="44">LIFECYCLE ASSURANCE FRAMEWORK · LAF-HAD</text>
+<text class="small" x="40" y="68">One AI perception component, six phases, four standards, one argument that stays valid after updates.</text>
+<circle class="pulse" cx="600" cy="372" r="120" fill="url(#core)"/>
+<circle class="loop" cx="600" cy="372" r="168"/>
+<g class="orbit"><circle cx="600" cy="204" r="8" fill="#5ad1f0"/><circle cx="600" cy="204" r="15" fill="#5ad1f0" fill-opacity=".25"/></g>
+<g class="node" style="animation-delay:-12.00s"><circle cx="600.0" cy="204.0" r="27" class="nc" style="animation-delay:-12.00s"/><text x="600.0" y="210.0" text-anchor="middle" class="num">1</text></g><g class="node" style="animation-delay:-10.00s"><circle cx="745.5" cy="288.0" r="27" class="nc" style="animation-delay:-10.00s"/><text x="745.5" y="294.0" text-anchor="middle" class="num">2</text></g><g class="node" style="animation-delay:-8.00s"><circle cx="745.5" cy="456.0" r="27" class="nc" style="animation-delay:-8.00s"/><text x="745.5" y="462.0" text-anchor="middle" class="num">3</text></g><g class="node" style="animation-delay:-6.00s"><circle cx="600.0" cy="540.0" r="27" class="nc" style="animation-delay:-6.00s"/><text x="600.0" y="546.0" text-anchor="middle" class="num">4</text></g><g class="node" style="animation-delay:-4.00s"><circle cx="454.5" cy="456.0" r="27" class="nc" style="animation-delay:-4.00s"/><text x="454.5" y="462.0" text-anchor="middle" class="num">5</text></g><g class="node" style="animation-delay:-2.00s"><circle cx="454.5" cy="288.0" r="27" class="nc" style="animation-delay:-2.00s"/><text x="454.5" y="294.0" text-anchor="middle" class="num">6</text></g>
+<text class="tiny" x="600" y="342" text-anchor="middle">AI-based LiDAR perception</text>
+<text class="big" x="600" y="380" text-anchor="middle">LAF-HAD</text>
+<text class="small" x="600" y="406" text-anchor="middle">26262 · 21448 · 21434 · 8800</text>
+<g class="lbl" style="animation-delay:-12.00s"><text text-anchor="middle" x="600.0" y="104.0"><tspan class="ph" x="600.0" dy="0">Concept and</tspan><tspan class="ph" x="600.0" dy="19">requirements</tspan><tspan class="q" x="600.0" dy="21">What can go wrong?</tspan><tspan class="w" x="600.0" dy="18">HARA · TARA · ODD</tspan></text></g><g class="lbl" style="animation-delay:-10.00s"><text text-anchor="start" x="795.7" y="237.0"><tspan class="ph" x="795.7" dy="0">Design and</tspan><tspan class="ph" x="795.7" dy="19">training</tspan><tspan class="q" x="795.7" dy="21">Is the data fit for purpose?</tspan><tspan class="w" x="795.7" dy="18">data lifecycle</tspan></text></g><g class="lbl" style="animation-delay:-8.00s"><text text-anchor="start" x="795.7" y="463.0"><tspan class="ph" x="795.7" dy="0">Verification</tspan><tspan class="ph" x="795.7" dy="19">and validation</tspan><tspan class="q" x="795.7" dy="21">Does it meet its targets?</tspan><tspan class="w" x="795.7" dy="18">SOTIF benchmark · target test</tspan></text></g><g class="lbl" style="animation-delay:-6.00s"><text text-anchor="middle" x="600.0" y="592.0"><tspan class="ph" x="600.0" dy="0">Integration</tspan><tspan class="ph" x="600.0" dy="19">and deployment</tspan><tspan class="q" x="600.0" dy="21">Is the argument complete?</tspan><tspan class="w" x="600.0" dy="18">integrated GSN · release</tspan></text></g><g class="lbl" style="animation-delay:-4.00s"><text text-anchor="end" x="404.3" y="463.0"><tspan class="ph" x="404.3" dy="0">Operation</tspan><tspan class="ph" x="404.3" dy="19">and monitoring</tspan><tspan class="q" x="404.3" dy="21">Is it still safe out there?</tspan><tspan class="w" x="404.3" dy="18">runtime uncertainty monitor</tspan></text></g><g class="lbl" style="animation-delay:-2.00s"><text text-anchor="end" x="404.3" y="237.0"><tspan class="ph" x="404.3" dy="0">Modification</tspan><tspan class="ph" x="404.3" dy="19">and re-assurance</tspan><tspan class="q" x="404.3" dy="21">Does it hold after an update?</tspan><tspan class="w" x="404.3" dy="18">re-assurance after OTA</tspan></text></g>
+</svg>
