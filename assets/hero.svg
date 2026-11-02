@@ -10,12 +10,12 @@
 </defs>
 <style>
   text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
-  .eyebrow { font-size: 14px; letter-spacing: 3px; fill: #5ad1f0; font-weight: 600; }
-  .name { font-size: 56px; font-weight: 700; fill: #eef3fa; letter-spacing: -0.5px; }
-  .sub { font-size: 21px; fill: #c9d6ea; }
-  .tag { font-size: 23px; font-weight: 600; fill: #5ad1f0; opacity: 0; }
+  .eyebrow { font-size: 16px; letter-spacing: 3px; fill: #5ad1f0; font-weight: 600; }
+  .name { font-size: 68px; font-weight: 700; fill: #eef3fa; letter-spacing: -0.5px; }
+  .sub { font-size: 26px; fill: #c9d6ea; }
+  .tag { font-size: 24px; font-weight: 600; fill: #5ad1f0; opacity: 0; }
   .tag.t0 { opacity: 1; }
-  .std { font: 13.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #93a6c2; letter-spacing: .4px; }
+  .std { font: 16px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #93a6c2; letter-spacing: .4px; }
   .lab { font: 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #93a6c2; }
   .p { fill: #5ad1f0; opacity: .28; animation: ping 4.0s linear infinite; }
   .pc { fill: #8be9ff; }
@@ -315,14 +315,13 @@
   <linearGradient id="ugrad" x1="996" y1="0" x2="1160" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3ddc97"/><stop offset=".55" stop-color="#ffb547"/><stop offset="1" stop-color="#ff6b6b"/></linearGradient>
 </g>
 
-<text class="eyebrow" x="64" y="108">PHD RESEARCH · AUTOMATED DRIVING</text>
-<text class="name" x="62" y="172">Milin Patel</text>
-<text class="sub" x="64" y="212">Safety and security of AI-based perception</text>
-<text class="tag t0" x="64" y="268">Assurance evidence for AI-based perception.</text>
-<text class="tag t1" x="64" y="268">From hazard analysis to operation and updates.</text>
-<text class="tag t2" x="64" y="268">Safety and cybersecurity in one assurance case.</text>
-<line x1="64" y1="298" x2="120" y2="298" stroke="#5ad1f0" stroke-width="2"/>
-<text class="std" x="64" y="330">ISO 26262 · ISO 21448 · ISO/SAE 21434 · ISO/PAS 8800</text>
-<text class="std" x="64" y="354" style="fill:#5f7396">Research · Education · Open-source tools</text>
+<text class="eyebrow" x="64" y="104">PHD RESEARCH · AUTOMATED DRIVING</text>
+<text class="name" x="60" y="182">Milin Patel</text>
+<text class="sub" x="64" y="230">Safety and security of AI-based perception</text>
+<text class="tag t0" x="64" y="290">Assurance evidence for AI-based perception.</text>
+<text class="tag t1" x="64" y="290">From hazard analysis to operation and updates.</text>
+<text class="tag t2" x="64" y="290">Safety and cybersecurity in one assurance case.</text>
+<line x1="64" y1="322" x2="120" y2="322" stroke="#5ad1f0" stroke-width="2"/>
+<text class="std" x="64" y="356">ISO 26262 · ISO 21448 · ISO/SAE 21434 · ISO/PAS 8800</text>
 </g>
 </svg>
