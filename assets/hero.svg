@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="t d">
-<title id="t">Milin Patel: safety and security of AI-based perception for automated driving</title>
-<desc id="d">A bird's-eye LiDAR view: the sweep scans the road, cars are detected, and a pedestrian crossing ahead is tracked while a safety monitor reacts as the detection becomes uncertain.</desc>
+<title id="t">Milin Patel: safety and security of AI-based perception in automated driving</title>
+<desc id="d">A bird's-eye LiDAR view: the sweep scans the road, other vehicles are detected, and a pedestrian crossing ahead is tracked while a runtime monitor reacts as the detection becomes uncertain.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1020"/><stop offset="1" stop-color="#101a31"/></linearGradient>
   <linearGradient id="wedge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5ad1f0" stop-opacity="0"/><stop offset="1" stop-color="#5ad1f0" stop-opacity=".32"/></linearGradient>
@@ -301,12 +301,12 @@
   <rect x="770" y="211" width="60" height="28" rx="7" fill="#5ad1f0"/>
   <rect x="810" y="215" width="12" height="20" rx="3" fill="#0b2a36" opacity=".55"/>
   <circle cx="800" cy="225" r="4" fill="#0b2a36"/>
-  <text class="lab" x="770" y="255">ego · LiDAR</text>
+  <text class="lab" x="770" y="255">ego vehicle</text>
 </g>
 
 <g>
   <rect x="980" y="24" width="196" height="84" rx="10" fill="#060b16" fill-opacity=".7" stroke="#24365a"/>
-  <text class="lab" x="996" y="46">SAFETY MONITOR</text>
+  <text class="lab" x="996" y="46">RUNTIME MONITOR</text>
   <text class="st s0" x="996" y="74">NOMINAL</text>
   <text class="st s1" x="996" y="74">CAUTION</text>
   <text class="st s2" x="996" y="74">DEGRADED</text>
@@ -315,14 +315,14 @@
   <linearGradient id="ugrad" x1="996" y1="0" x2="1160" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3ddc97"/><stop offset=".55" stop-color="#ffb547"/><stop offset="1" stop-color="#ff6b6b"/></linearGradient>
 </g>
 
-<text class="eyebrow" x="64" y="108">PHD RESEARCHER · AUTOMATED DRIVING</text>
+<text class="eyebrow" x="64" y="108">PHD RESEARCH · AUTOMATED DRIVING</text>
 <text class="name" x="62" y="172">Milin Patel</text>
 <text class="sub" x="64" y="212">Safety and security of AI-based perception</text>
-<text class="tag t0" x="64" y="268">Building trust in machines that see.</text>
-<text class="tag t1" x="64" y="268">From hazard analysis to the open road.</text>
-<text class="tag t2" x="64" y="268">Where safety meets security.</text>
+<text class="tag t0" x="64" y="268">Assurance evidence for AI-based perception.</text>
+<text class="tag t1" x="64" y="268">From hazard analysis to operation and updates.</text>
+<text class="tag t2" x="64" y="268">Safety and cybersecurity in one assurance case.</text>
 <line x1="64" y1="298" x2="120" y2="298" stroke="#5ad1f0" stroke-width="2"/>
 <text class="std" x="64" y="330">ISO 26262 · ISO 21448 · ISO/SAE 21434 · ISO/PAS 8800</text>
-<text class="std" x="64" y="354" style="fill:#5f7396">Research · Teaching · Open tools</text>
+<text class="std" x="64" y="354" style="fill:#5f7396">Research · Education · Open-source tools</text>
 </g>
 </svg>
